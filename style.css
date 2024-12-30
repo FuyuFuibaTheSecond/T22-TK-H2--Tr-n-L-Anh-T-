@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077c0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.tours {
+    padding: 20px;
+    text-align: center;
+}
+
+.tour {
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.tour:hover {
+    transform: scale(1.05);
+}
+
+.tour img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.tour h3 {
+    margin: 10px 0;
+}
+
+.tour p {
+    padding: 0 10px;
+}
+
+button {
+    background-color: #0077c0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005f9e;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h4 {
+    margin: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+main {
+    text-align: center;
+    overflow: hidden;
+}
+iframe{
+    overflow: hidden;
+}
